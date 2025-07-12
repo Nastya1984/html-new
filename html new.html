@@ -1,0 +1,221 @@
+<html>
+    <head>
+        <title> Я У МАМЫ ПРОГРАММИСТ</title>
+        <meta name="Author" content="Anastasiia">
+    </head>
+    <body>
+        <img src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/3a0/617/3de/3a06173ded56bb70349963fee4964b41.jpg" width="200">
+        <h1>Я У МАМЫ ПРОГРАММИСТ</h1>
+        <h2>Структура кода HTML:</h2>
+        <img src="https://seoportal.net/images/baza/skorost-zagruzki/struktura-koda/effektivnaya-struktura-koda.png" 
+        alt="Структура кода HTML">
+        <h3><b>&lt;head&gt;:</b></h3>
+        <ul>
+            <li><a href="#meta">&lt;meta&gt;</a></li>
+            <li><a href="#title">&lt;title&gt;</a></li>
+        </ul>
+        <h3 id="#meta"><b><i>&lt;meta&gt;:</i></b></h3>
+        <p>Это теги технического характера. Это необязательные атрибуты, размещенные в заголовке страницы, которые могут содержать ее описание, ключевые слова к ней, информацию об авторе, управляющие команды для броузера и поисковых роботов, и прочую служебную информацию, не предназначенную для посетителей.</p
+        <h3 id="#title"><b><i>&lt;title&gt;</i></b></h3>
+        <p>Элемент &lt;title&gt; используют, чтобы дать документу название. Название, или заголовок документа, будет видно только в строке заголовка браузера или на вкладке страницы.</p>
+        <form>
+            <!--форма регистрации-->
+            <div>        
+                <label for="log"><b>Логин</b></label>
+            <input type="text" id="log" name="login">
+            <button type="submit">OK</button><br><br>
+
+            <label for="psw"><b>Пароль</b></label>
+            <input type="text" id="psw" name="Password">
+            <button type="submit">OK</button>
+            </div>
+        </form>
+        <table>
+            <tr>
+             <th>Тэг</th><th>Описание</th>
+            </tr>
+            <tr>
+             <td>&lt;b&gt</td><td>Жирный шрифт</td>
+            </tr>
+           <tr>
+             <td>&lt;i&gt</td><td>Курсив</td>
+           </tr>
+           <tr>
+             <td>&lt;u&gt</td><td>Подчеркнутый</td>
+           </tr>
+           <tr> 
+             <td>&lt;ol&gt</td><td>Упорядоченный список</td>
+           </tr>
+           <tr> 
+             <td>&lt;ul&gt</td><td>Неупорядоченный список</td>
+           </tr>
+           <tr>
+             <td>&lt;li&gt</td><td>Элемент списка</td>
+           </tr>
+           <tr>
+             <td>&lt;br&gt</td><td>Перенос строки</td>
+           </tr>
+        </table>
+        <form>
+            <h2>Структура HTML</h2>
+            <ol>
+                <li>&lt;html&gt</li>
+                <li>&lt;head&gt</li>
+                <li>&lt;body&gt</li>
+            </ol>
+            <h3>&lt;body&gt содержит:</h3>
+            <ul>
+                <li>&lt;header&gt</li>
+                <li>&lt;footer&gt</li>
+            </ul>
+        </form>
+       <h1>заголовок главный</h1>
+        <p>это параграф</p>
+        <p>а это очень длинный параграф <br> и нужно перенести на другую строку</p>
+        <!--упорядоченный список-->
+        <ol>
+          <li>строка списка</li>
+          <li>строка списка</li>
+          <li>строка списка</li>
+          <li>строка списка</li>
+          </ol>
+          <!-- неупорядоченный список-->
+           <ul>
+            <li>строка списка</li>
+            <li>строка списка</li>
+            <li>строка списка</li>
+          </ul>
+          <div class="container">
+            <div class="item">блок1</div>
+            <div class="item">блок2</div>
+            <div class="item">блок3</div>
+          </div>
+          <style>
+          .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            background-color: lightblue;
+          }
+          .item{
+            color:black;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            background-color: coral;
+            margin: 10px;
+            border-radius: 10px;
+            line-height: 100px;
+          }
+          </style>
+          <div class="container2">
+            <div class="item2">блок1</div>
+            <div class="item2">блок2</div>
+            <div class="item2">блок3</div>
+          </div>
+          <style>
+          .container2{
+            display: flex;
+            flex-direction: column;
+            background-color: #f3f3f3;
+            padding: 10px;
+          }
+          .item2{
+            color: white;
+            padding: 10px;
+            text-align: center;
+            background-color: plum;
+            margin: 5px 0;
+          }
+          </style>
+          <div class="container3">
+            <div class="item3">блок1</div>
+            <div class="item3">блок2</div>
+            <div class="item3">блок3</div>
+          </div>
+          <style>
+          .container3{
+            display: flex;
+            text-align: center;
+            background-color: plum;
+            justify-content: center;
+            line-height: 100px;
+            padding: 20px;
+          }
+          .item3{
+            color: rgb(40, 35, 185);
+            width: 150px;
+            height: 100px;
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(25, 216, 67);
+            line-height: 100px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+            margin: 20px;
+          }
+          </style>
+          <div class="grid-container">
+            <div class="grid-item">
+              <div class="flex-cotainer">
+                <span>Элемент1</span>
+                <span>Элемент2</span>
+                <span>Элемент3</span>
+              </div>
+            </div>
+          </div>
+          <style>
+          .grid-container{
+            display: grid;
+            grid-template-columns: 1fr, 1fr, 1fr;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px;
+          }
+
+          .flex-cotainer{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+          }
+
+          .grid-item{
+            padding: 10px;
+            background-color: lightskyblue;
+
+          }
+          span{
+            background-color: coral;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 5px;
+            padding: 10px;
+          }
+          </style>
+          <div class="container4">
+            <div class="item4" style="flex-grow: 1;">блок1</div>
+            <div class="item4" style="flex-grow: 2;">блок2</div>
+            <div class="item4" style="flex-grow: 1;">блок3</div>
+          </div>
+          <style>
+          .container4{
+            display: flex;
+            text-align: center;
+            background-color: yellow;
+            justify-content: center;
+            line-height: 100px;
+            padding: 20px;
+          }
+          .item4{
+            color: rgb(87, 24, 234);
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(25, 179, 206);
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+            margin: 10px;
+          }
+          </style>
+          </body>
+          </html>
